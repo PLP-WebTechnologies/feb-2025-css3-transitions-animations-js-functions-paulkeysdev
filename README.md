@@ -21,3 +21,12 @@ Store data in localStorage.
 Apply JavaScript to trigger animations.
 
 Happy Coding! 💻✨
+
+
+## Project Features
+✅ Smooth CSS animations for button hover & click 
+✅ Dark mode toggle saved in local storage 
+✅ JavaScript event triggering an animation when button is clicked
+✅ Added @keyframes animations for smoother effects 
+✅ Used keyframes for both button pulsing and box fade-in 
+✅ Applied animations dynamically using JavaScript

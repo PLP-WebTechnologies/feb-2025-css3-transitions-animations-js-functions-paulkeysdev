@@ -1,0 +1,63 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+}
+
+/* Dark Mode Styling */
+.dark-mode {
+    background-color: #222;
+    color: white;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.5s ease, transform 0.3s ease;
+    animation: pulse 1.5s infinite ease-in-out;
+}
+
+/* Hover & Click Animation */
+button:hover {
+    background-color: #3498db;
+    color: white;
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+/* Animated Box */
+#animatedBox {
+    width: 200px;
+    height: 100px;
+    background-color: #f1c40f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    margin: 20px auto;
+    opacity: 0;
+    transform: scale(0.8);
+    transition: opacity 1s ease, transform 0.5s ease;
+}
+
+
+/* Keyframe Animation for Button */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.1); }
+    100% { transform: scale(1); }
+}
+
+/*  Keyframe Animation for Box */
+@keyframes fadeZoom {
+    0% { opacity: 0; transform: scale(0.8); }
+    100% { opacity: 1; transform: scale(1.1); }
+}
+
